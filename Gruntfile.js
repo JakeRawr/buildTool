@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 
       test: {
         src: ['test/client/**/*test.js'],
-        dest: 'test/test_bundle.js',
+        dest: 'test/bundleTest.js',
         options: {
           transform: ['debowerify']
         }
